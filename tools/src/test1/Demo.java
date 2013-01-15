@@ -13,7 +13,7 @@ public class Demo {
 		String pathName = "F:/m.mp3";
 		int byteSize = 64;
 		long time1 = System.currentTimeMillis();
-//		printBinary(pathName);
+//		printBinary(pathName);11
 		test(pathName,byteSize);
 		long time2 = System.currentTimeMillis();
 		System.out.println("Run Time:["+(time2-time1)/1000f+"]sec.");
